@@ -52,7 +52,8 @@ nav{
     border-radius: 10px;    
 }
 .card img{    
-    height: 150px;   
+     height: 160px;
+    
 }
 .card-text{
     font-size: 14px;
@@ -72,19 +73,19 @@ nav{
 /*====Section loja====*/
 .bg-img{
     background-image: url('../_assets/dog.png');
-    background-size: 67%;
+    background-size: 64%;
     background-repeat: no-repeat;
-    background-position: 40vw -150px;
+    background-position: 48vw -190px;
 }
 .card-info{
     border-radius: 8px;
     border: 1px solid #B6B6B6;
     box-shadow: 0px 5px 9px rgba(226, 118, 27, 1);
-    transition: .3s linear;
+    transition: .2s linear;
 }
 .card-info:hover{
     transform: scale(1.1);
-    transition: .3s linear;
+    transition: .2s linear;
 }
 
 /*=====Section formulario=====*/
