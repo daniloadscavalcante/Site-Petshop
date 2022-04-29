@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Mochiy+Pop+One&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;500;700&family=Outfit:wght@300;400;700&family=Permanent+Marker&family=Quicksand:wght@500;700&family=Roboto:wght@300;400;500;700;900&family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-header{
+    height: 50px;
+    font-size: 14px;
+}
+.bg-hero{
+    background: yellow;
+}        
+.top-contato i {
+    margin-right: 14px;
+    font-size: 20px;
+}
+.numero-contato{
+    margin-right: 20px;
+}
+.top-redeSociais span{
+    margin-left: 20px;
+}
+.top-redeSociais i{
+    font-size: 20px;
+}     
+
+nav{
+    height: 60px;
+}
+
+/*====hero====*/
+.hero{
+    width: 100%;   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background:blue;
+    max-height: 500px;
+    height: 500px;
+    position: relative;   
+    background:  url("../_assets/hero.webp");   
+    background-size: cover;
+  
+   background-repeat: no-repeat;
+}
+.img-hero{    
+    height: auto;
+    display: block;
+}
+.hero h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 48px;    
+}
+.hero h1{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 32px;
+}
+
+/*====main section cards====*/
+.section-title{
+    font-family: 'Jost';
+}
+.title-negrito{
+    font-weight: 500;
+}
+.card{
+    max-width: 330px;
+    border-radius: 10px;    
+}
+.card img{    
+    height: 150px;   
+}
+.teste{
+    background-image: url("../_assets/cat.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 0px -120px;
+    min-height: 500px;
+    height: 100%;
+}
+
+/*====tipografia====*/
+.paragrafo{
+    font-family: 'Jost';
+    font-size: 16px;    
+}
+
+/*tipografia section loja*/
+.font-loja{
+    font-family: 'Jost';
+}
+.top-paragrafo{    
+    font-size:13px;
+    color: #E2761B;
+    font-weight: 500;
+}
+.font-loja h4{
+    letter-spacing: 0.06em;    
+}
+/*tipografia section marcas*/
+.section-marcas{
+    font-family: 'Jost';
+    color: #7C7878;
+}
+.section-marcas h4{
+    font-size: 22px;
+    letter-spacing: 0.05em;
+}
+.section-marcas .marca{
+    text-transform: uppercase;
+}
+
+/*====section loja====*/
+.bg-img{
+    background-image: url('../_assets/dog.png');
+    background-size: 67%;
+    background-repeat: no-repeat;
+    background-position: 40vw -150px;
+}
+.card-info{
+    border-radius: 8px;
+    border: 1px solid #B6B6B6;
+    box-shadow: 0px 5px 9px rgba(226, 118, 27, 1);
+    transition: .3s linear;
+}
+.card-info:hover{
+    transform: scale(1.1);
+    transition: .3s linear;
+}
+
+/*section formulario*/
+label{
+    margin-top: 10px;
+    font-family: "jost";
+    font-weight: 500;
+    color: black;
+}
+input{
+    border:none;
+    padding: 4px;
+    background: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 300px;
+    margin-bottom: 30px;
+    width:100%;
+    display: block;
+}
+form{
+    border: 1px solid #7C7878;
+    border-radius: 10px;
+    background-color: #fff;
+}
+textarea{
+    resize: none;
+    border-radius: 10px;
+    border: 1px solid #F09A52;
+    width: 96%;
+    height: 120px;
+    padding: 8px;  
+    outline: #F09A52;  
+}
+textarea::placeholder{    
+    font-size: 15px;
+}
+.btn{
+    border-radius: 10px;
+    background-color: #E2761B;
+}
+.btn:hover{
+    background-color: #d16b18;
+}
+
+/*footer*/
+
+.title-footer{
+    font-size: 21px;
+    font-weight: 500;    
+}
+.title-footer p{
+    font-size:11px;
+    
+}
+.col{
+    border-radius: 10px;
+    border: 1px solid #d16b18
+}
+.hrs{
+    font-size: 14px;
+}
+.mapa{
+    width: 300px;
+    height:100px;
+    margin: auto;
+    background:blue;
+}
+.linha{   
+    width: 1px; 
+    padding: 50px 0;     
+}
+.line-vertical{
+   display: block;
+   width: 2px; 
+   height: 100%;
+   background-color: blue;
+   color: blue;
+}
+/*rodape*/
+.rodape{
+    background-color: #d16b18;
+}
