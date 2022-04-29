@@ -7,12 +7,13 @@
     box-sizing: border-box;
 }
 
+/*=====Header======*/
 .top-header{
     height: 50px;
     font-size: 14px;
 }
 .bg-hero{
-    background: yellow;
+    background: #ffff00;
 }        
 .top-contato i {
     margin-right: 14px;
@@ -27,12 +28,9 @@
 .top-redeSociais i{
     font-size: 20px;
 }     
-
 nav{
     height: 60px;
 }
-
-/*====hero====*/
 .hero{
     width: 100%;   
     display: flex;
@@ -47,26 +45,8 @@ nav{
   
    background-repeat: no-repeat;
 }
-.img-hero{    
-    height: auto;
-    display: block;
-}
-.hero h2{
-    font-family: 'Permanent Marker', cursive;
-    font-size: 48px;    
-}
-.hero h1{
-    font-family: 'Mochiy Pop P One', sans-serif;
-    font-size: 32px;
-}
 
-/*====main section cards====*/
-.section-title{
-    font-family: 'Jost';
-}
-.title-negrito{
-    font-weight: 500;
-}
+/*====Section Preparação pet====*/
 .card{
     max-width: 330px;
     border-radius: 10px;    
@@ -74,7 +54,13 @@ nav{
 .card img{    
     height: 150px;   
 }
-.teste{
+.card-text{
+    font-size: 14px;
+    font-family: 'Jost';
+}
+
+/*====Section serviços====*/
+.bg-servico{
     background-image: url("../_assets/cat.png");
     background-repeat: no-repeat;
     background-size: 60%;
@@ -83,38 +69,7 @@ nav{
     height: 100%;
 }
 
-/*====tipografia====*/
-.paragrafo{
-    font-family: 'Jost';
-    font-size: 16px;    
-}
-
-/*tipografia section loja*/
-.font-loja{
-    font-family: 'Jost';
-}
-.top-paragrafo{    
-    font-size:13px;
-    color: #E2761B;
-    font-weight: 500;
-}
-.font-loja h4{
-    letter-spacing: 0.06em;    
-}
-/*tipografia section marcas*/
-.section-marcas{
-    font-family: 'Jost';
-    color: #7C7878;
-}
-.section-marcas h4{
-    font-size: 22px;
-    letter-spacing: 0.05em;
-}
-.section-marcas .marca{
-    text-transform: uppercase;
-}
-
-/*====section loja====*/
+/*====Section loja====*/
 .bg-img{
     background-image: url('../_assets/dog.png');
     background-size: 67%;
@@ -132,7 +87,12 @@ nav{
     transition: .3s linear;
 }
 
-/*section formulario*/
+/*=====Section formulario=====*/
+form{
+    border: 1px solid #7C7878;
+    border-radius: 10px;
+    background-color: #fff;
+}
 label{
     margin-top: 10px;
     font-family: "jost";
@@ -144,16 +104,10 @@ input{
     padding: 4px;
     background: none;
     border-bottom: 1px solid black;
-    outline: none;
-    width: 300px;
+    outline: none;    
     margin-bottom: 30px;
     width:100%;
     display: block;
-}
-form{
-    border: 1px solid #7C7878;
-    border-radius: 10px;
-    background-color: #fff;
 }
 textarea{
     resize: none;
@@ -176,16 +130,7 @@ textarea::placeholder{
 }
 
 /*footer*/
-
-.title-footer{
-    font-size: 21px;
-    font-weight: 500;    
-}
-.title-footer p{
-    font-size:11px;
-    
-}
-.col{
+.container-footer .col{
     border-radius: 10px;
     border: 1px solid #d16b18
 }
@@ -204,12 +149,79 @@ textarea::placeholder{
 }
 .line-vertical{
    display: block;
-   width: 2px; 
+   width: 1px; 
    height: 100%;
-   background-color: blue;
-   color: blue;
+   background-color: #d16b18;   
 }
-/*rodape*/
+
+/*Rodape Bottom*/
 .rodape{
     background-color: #d16b18;
+    color:#fff
+}
+
+
+/*==============TIPOGRAFIAS==================*/
+
+.title-sections{
+    font-family: 'Jost';
+}
+.paragrafos{
+    font-family: 'Jost';
+    font-size: 16px;    
+}
+
+/*tipografia hero*/
+.hero h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 48px;    
+}
+.hero h1{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 32px;
+}
+
+/*tipografia section loja*/
+.font-loja{
+    font-family: 'Jost';
+}
+.top-paragrafo{    
+    font-size: 13px;
+    color: #E2761B;
+    font-weight: 500;
+}
+.font-loja h4{
+    letter-spacing: 0.06em;    
+}
+
+/*tipografia section profissionais*/
+.texto-overtitulo{
+    color: #E2761B;
+    font-weight: 500;
+    font-family: 'Jost';
+}
+
+/*tipografia section marcas*/
+.section-marcas{
+    font-family: 'Jost';
+    color: #7C7878;
+}
+.section-marcas h4{
+    font-size: 22px;
+    letter-spacing: 0.05em;
+}
+.section-marcas .marca{
+    text-transform: uppercase;
+}
+
+/*tipografia footer*/
+.container-footer{
+    font-family: 'Jost';
+}
+.title-footer{
+    font-size: 21px;
+    font-weight: 500;    
+}
+.title-footer p{
+    font-size:11px;    
 }
