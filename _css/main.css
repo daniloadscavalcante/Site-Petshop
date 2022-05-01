@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /*=====Header======*/
 .top-header{
     height: 50px;
@@ -61,13 +65,16 @@ nav{
 }
 
 /*====Section serviços====*/
-.bg-servico{
+.bg-servico{    
     background-image: url("../_assets/cat.png");
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: 0px -120px;
     min-height: 500px;
     height: 100%;
+}
+.bg-subsection{
+    max-width: 700px;
 }
 
 /*====Section loja====*/
@@ -225,4 +232,15 @@ textarea::placeholder{
 }
 .title-footer p{
     font-size:11px;    
+}
+
+@media only screen and (max-width:700px){
+    /*====Section serviços====*/
+.bg-servico{
+  background: transparent;
+
+}
+.paragrafos{
+    
+}
 }
