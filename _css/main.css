@@ -82,9 +82,11 @@ nav{
     background-image: url('../_assets/dog.png');
     background-size: 64%;
     background-repeat: no-repeat;
-    background-position: 48vw -190px;
+    background-position: 48vw -5vh;
 }
 .card-info{
+    max-width: 600px;
+    width: 100%;
     border-radius: 8px;
     border: 1px solid #B6B6B6;
     box-shadow: 0px 5px 9px rgba(226, 118, 27, 1);
@@ -97,6 +99,8 @@ nav{
 
 /*=====Section formulario=====*/
 form{
+    max-width: 600px;
+    width: 100%;
     border: 1px solid #7C7878;
     border-radius: 10px;
     background-color: #fff;
@@ -234,13 +238,22 @@ textarea::placeholder{
     font-size:11px;    
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:800px){
     /*====Section serviços====*/
 .bg-servico{
   background: transparent;
 
 }
-.paragrafos{
-    
 }
+@media only screen and (max-width:800px){
+    .bg-img{
+        background-image: url('../_assets/dog.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: -55vw 30vh;
+    }
+    .card-info:hover{
+        transform: scale(.9);
+        transition: .2s linear;
+    }
 }
