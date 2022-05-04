@@ -39,15 +39,13 @@ nav{
     width: 100%;   
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    background:blue;
+    justify-content: space-evenly;    
     max-height: 500px;
     height: 500px;
     position: relative;   
-    background:  url("../_assets/hero.webp");   
-    background-size: cover;
-  
-   background-repeat: no-repeat;
+    background:  url("../_assets/dog-capa.png"), url("../_assets/hero.webp");   
+    background-position: right center, left top;    
+    background-repeat: no-repeat;
 }
 
 /*====Section Preparação pet====*/
