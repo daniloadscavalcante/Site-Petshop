@@ -49,9 +49,7 @@ nav{
     background-position: 90% center, left top;    
     background-repeat: no-repeat;
 }
-.hero .text-hero{
-    
-    
+.hero .text-hero{    
     width: 100%;
     
 }
@@ -180,9 +178,12 @@ textarea::placeholder{
 
 /*Rodape Bottom*/
 .rodape{
-    background-color: #d16b18;
+    background-color: #D16B18;
     color:#fff
 }
+
+
+
 
 
 /*==============TIPOGRAFIAS==================*/
@@ -249,6 +250,7 @@ textarea::placeholder{
 .title-footer p{
     font-size:11px;    
 }
+/*======Fim Tipografia=======*/
 
 @media only screen and (max-width:800px){
     /*====Section serviços====*/
@@ -273,14 +275,7 @@ textarea::placeholder{
     .top-header{
         display: none !important;
     }
-    .hero{
-        width: 100%;   
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;    
-        max-height: 500px;
-        height: 500px;
-        position: relative;   
+    .hero{        
         background:  url("../_assets/dog-capa.png"), right top url("../_assets/hero.webp");   
         background-position: left center, right top;    
         background-repeat: no-repeat;        
@@ -290,6 +285,9 @@ textarea::placeholder{
         width: 100%;
         text-shadow: 0px 0px 1px;
         color: #fff;
+    }
+    .texto-overtitulo{
+      font-size: 13px;
     }
 
 }
