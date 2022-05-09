@@ -33,9 +33,16 @@ html, body{
     font-size: 20px;
 }     
 nav{
-    height: 60px;
+    height: 60px;    
 }
-
+.nav-link{
+    color:#7C7878;
+    transition: .3s all linear;
+}
+.nav-link:hover{
+    color: #d16b18;
+    transition: .3s all linear;
+}
 /*======Hero*/
 .hero{
     width: 100%;   
@@ -63,7 +70,12 @@ nav{
 /*====Section Preparação pet====*/
 .card{
     max-width: 330px;
-    border-radius: 10px;    
+    border-radius: 10px;   
+    transition: .2s all linear;   
+}
+.card:hover{
+    transform:translateY(-20px);
+    transition: .2s all linear;
 }
 .card img{    
      height: 160px;
@@ -87,12 +99,16 @@ nav{
     max-width: 700px;
 }
 
+.card-img-top{
+    object-fit: cover;    
+}
+
 /*====Section loja====*/
-.bg-img{
+.bg-dog{
     background-image: url('../_assets/dog.png');
     background-size: 64%;
     background-repeat: no-repeat;
-    background-position: 48vw -5vh;
+    background-position: 42vw -7vh;
 }
 .card-info{
     max-width: 600px;
@@ -253,19 +269,13 @@ textarea::placeholder{
 /*======Fim Tipografia=======*/
 
 @media only screen and (max-width:800px){
-    /*====Section serviços====*/
-.bg-servico{
-  background: transparent;
-
-}
-}
-@media only screen and (max-width:800px){
-    .bg-img{
-        background-image: url('../_assets/dog.png');
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: -55vw 30vh;
+    .bg-servico{
+        background: transparent;
+      }
+    .bg-dog{
+       background: transparent;
     }
+    /*-55vw 30vh*/
     .card-info:hover{
         transform: scale(.9);
         transition: .2s linear;
@@ -290,4 +300,8 @@ textarea::placeholder{
       font-size: 13px;
     }
 
+    .bg-dog{        
+        background-size: 100%;        
+        background-position: -55vw 30vh;
+    }
 }
