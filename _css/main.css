@@ -36,12 +36,11 @@ html, body{
 nav{
     height: 60px;    
 }
-.nav-link{
-    color:#7C7878;
-    transition: .3s all linear;
-}
-.nav-link:hover{
-    color: #d16b18;
+.navbar-nav li > a{
+    color: #7C7878!important;    
+  }
+.navbar-nav li > a:hover{
+    color: #d16b18!important;
     transition: .3s all linear;
 }
 /*======Hero*/
