@@ -33,7 +33,6 @@ animeScroll();/*ativando a função sempre que entrar no site*/
 
 if(target.length){/*só executara a função onde tiver o target*/
     window.addEventListener('scroll', debounce( function(){
-        animeScroll();
-        console.log('asda')
+        animeScroll();       
     }, 200));
 }
